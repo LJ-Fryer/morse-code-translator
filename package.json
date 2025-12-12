@@ -4,7 +4,7 @@
   "description": "A simple project that translates text to Morse code.",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/LJ-Fryer/morse-code-translator/issues"
   },
-  "homepage": "https://github.com/LJ-Fryer/morse-code-translator#readme"
+  "homepage": "https://github.com/LJ-Fryer/morse-code-translator#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
 }

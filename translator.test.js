@@ -1,4 +1,4 @@
-const { transtranslateText, translateMorse } = require("./translator");
+const { translateText, translateMorse } = require("./translator");
 
 describe("Test cases for a function that tanslates English to morse code, translateText(English → Morse)", () => {
   test("translates a single word correctly", () => {
